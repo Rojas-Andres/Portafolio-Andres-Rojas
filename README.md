@@ -4,7 +4,7 @@
 
 No se desarrollo con postgres porque tendria que tener la base de datos en algun lugar y no local , por ende se desarrollo en sqlite.
 
-<h2>El proyecto esta alojado en http://rojasxandres.pythonanywhere.com/proyectos/  </h2>
+<h2>El proyecto esta alojado en http://rojasxandres.pythonanywhere.com/  </h2>
 
 Ahi lo pueden visualizar el proyecto va a estar hasta agosto ya que dan 3 meses gratis por lo tanto luego de esta fecha la url no va a servir de a mucho.
 
