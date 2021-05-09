@@ -15,12 +15,13 @@ from pathlib import Path
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 #Abrimos el archivo correo_contrasena_email.txt
-with open('../correo_contrasena_email.txt') as f:
-    lineas = f.readlines()
+#with open('../correo_contrasena_email.txt') as f:
+#    lineas = f.readlines()
 #Eliminamos el salto de linea
-correo = lineas[0].rstrip("\n")
-contrasena = lineas[1].rstrip("\n")
-
+#correo = lineas[0].rstrip("\n")
+#contrasena = lineas[1].rstrip("\n")
+correo="hola@gmail.com"
+contrasena="hi"
 #Para mostrar el correo y la contraseña
 #print(correo,contrasena)
 
@@ -33,7 +34,7 @@ SECRET_KEY = 'django-insecure-o(yh_3+#(-7fza#*60lq$c-79l)rk5t-0zcxg=44@p+e21d=la
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["rojasxandres.pythonanywhere.com"]
 
 
 # Application definition
